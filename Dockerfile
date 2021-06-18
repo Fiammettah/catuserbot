@@ -1,8 +1,8 @@
 FROM sandy1709/catuserbot:latest
 
-#clonning repo 
+#clonning repo
 RUN git clone https://github.com/sandy1709/catuserbot.git /root/userbot
-#working directory 
+#working directory
 WORKDIR /root/userbot
 
 # Install requirements
